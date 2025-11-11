@@ -20,7 +20,6 @@ public class Main {
             
             Path filePath = Paths.get("data.txt");
             byte[] fileBytes = Files.readAllBytes(filePath);
-            String fileContent = new String(fileBytes, StandardCharsets.UTF_8);
 
             OutputStream output = socket.getOutputStream();
 
